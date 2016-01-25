@@ -1,0 +1,27 @@
+{
+  "name": "seed",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Vartan <vartana@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4",
+    "angular-css": "~1.0.7",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "semantic": "semantic-ui#~2.1.6"
+  }
+}

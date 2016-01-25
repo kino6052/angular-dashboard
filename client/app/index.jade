@@ -1,0 +1,25 @@
+doctype
+html(ng-app="Dash").no-js
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Title Needed
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // inject:css
+    // endinject
+  body
+    .ui.large.top.fixed.menu.visible
+      .ui.container
+        a.active.item Home
+        a.item Work
+        a(ui-sref='sms').item SMS
+        a.item Careers
+        .right.menu
+          .item
+            a.ui.button Log in
+          .item
+            a.ui.primary.button Sign Up
+    <div ui-view></div>
+    // inject:js
+    // endinject

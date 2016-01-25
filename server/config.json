@@ -1,0 +1,22 @@
+{
+  "db": {
+    "username": "",
+    "password": "",
+    "database": "",
+    "dialect": "postgres",
+    "host": "127.0.0.1",
+    "port": 5432
+  },
+  "express": {
+    "sessions": {
+      "key": "sid",
+      "secret": "FIEOhF*(#bf983y2b9fbayfab98byf9a",
+      "resave": true,
+      "saveUninitialized": true,
+      "cookie": {
+        "httpOnly": true,
+        "secure": false
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="Dash" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Title Needed</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- inject:css-->
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="stylesheet" href="/assets/css/semantic.css">
+    <!-- endinject-->
+  </head>
+  <body>
+    <div class="ui large top fixed menu visible">
+      <div class="ui container"><a class="active item">Home</a><a class="item">Work</a><a ui-sref="sms" class="item">SMS</a><a class="item">Careers</a>
+        <div class="right menu">
+          <div class="item"><a class="ui button">Log in</a></div>
+          <div class="item"><a class="ui primary button">Sign Up</a></div>
+        </div>
+      </div>
+    </div><div ui-view></div>
+    <!-- inject:js-->
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/assets/js/semantic.js"></script>
+    <script type="text/javascript" src="/assets/js/angular.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+    <!-- endinject-->
+  </body>
+</html>
