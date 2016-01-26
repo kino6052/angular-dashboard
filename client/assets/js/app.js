@@ -1,4 +1,23 @@
 'use strict';
 
-//Dashboard
-angular.module('Dash',['ui.router','door3.css']);
+/* App Module */
+
+var oxhnDashboardApp = angular.module('oxhnDashboardApp', [
+  'ngRoute',
+  'oxhnControllers'
+]);
+
+oxhnDashboardApp.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/questionaire', {
+        redirectTo: '/questionaire/0'
+      }).
+      when('/questionaire/:questionId', {
+        templateUrl: 'partials/questionaire.html',
+        controller: 'questionaireListCtrl'
+      }).
+      otherwise({
+        redirectTo: '/questionaire/0'
+      });
+  }]);

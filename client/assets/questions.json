@@ -1,0 +1,24 @@
+[{
+    "heading": "Step 1: New or Existing Patient",
+    "content": "New or Returning Patient?",
+    "buttons": [{
+        "value": "New Patient",
+        "href": "index.html#/questionaire/0"
+    }, 
+    {
+        "value": "Existing Patient",
+        "href": "index.html#/questionaire/1"
+    }]
+
+}, {
+    "heading": "Step 2: New or Existing Patient",
+    "content": "New or Returning Patient?",
+    "buttons": [{
+        "value": "New Patient",
+        "href": "index.html#/questionaire/0"
+    }, 
+    {
+        "value": "Existing Patient",
+        "href": "index.html#/questionaire/1"
+    }]
+}]
